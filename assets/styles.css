@@ -532,6 +532,19 @@ footer p:nth-of-type(1) {
   #darkroom-link a img {
     display: none;
   }
+  #seemore {
+    font-size: 2em;
+    padding: 30px;
+  }
+  #about p {
+    font-size: 1.6em;
+  }
+  #contact p {
+    font-size: 2em;
+  }
+  footer p {
+    font-size: 2em;
+  }
   
   
 }
