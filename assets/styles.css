@@ -34,6 +34,17 @@ body {
   transition-timing-function: cubic-bezier(1, -0.17, 0.8, 0.89);
 }
 
+.loader {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 1s;
+  transition-timing-function: cubic-bezier(1, -0.17, 0.8, 0.89);
+
+}
+
 header {
   display: flex;
   flex-direction: column;

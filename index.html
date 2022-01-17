@@ -6,6 +6,9 @@
     <link rel="icon" type="image/png" href="/assets/cameraicon.png">
     <meta charset="utf-8">
   </head>
+  <div class="loader" id="loader">
+    <h2>Loading...</h2>
+  </div>
   <body id="fadebody">
     <div class="cursor" id="cursor"></div>
     <div class="context-menu" id="contextMenu" style="display:none;">
@@ -165,6 +168,7 @@
         <script>
       window.addEventListener('load', function() {
         document.getElementById("fadebody").style.opacity = 1;
+        document.getElementById("loader").style.display = "none";
       });
       </script>
 
